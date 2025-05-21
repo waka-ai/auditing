@@ -72,7 +72,9 @@ npm start
 ---
 
 ## 💡 Customization
+-This project is a Python-based static code auditing tool that scans Python source files for security vulnerabilities, syntax errors, and insecure coding practices. It integrates three widely-used scanners — Bandit, Flake8, and Semgrep — and enhances their findings with mapped Common Vulnerabilities and Exposures (CVEs) and mitigation suggestions.
 
+The tool supports parallel scanning, directory and file-based audits, and generates both terminal output and a styled HTML report, making it ideal for secure development, auditing, and DevSecOps pipelines.
 - For directory scans or advanced features, extend the backend and frontend logic as desired.
 - The code is well-commented for easy understanding and modification.
 
@@ -80,9 +82,7 @@ npm start
 
 ## 🧑‍💻 Authors & Credits
 
-- Inspired by the original code-auditing-tool by Group 7.
-- Web GUI by [waka-ai](https://github.com/waka-ai) with Copilot’s assistance.
-
+Syeda Abiha Shams and Eshaal Rais
 ---
 
 ## 📸 Screenshots
