@@ -1,0 +1,12 @@
+
+    <html><head>
+    <title>Audit Report</title>
+    <style>
+    body { font-family: Arial; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #aaa; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+    </style>
+    </head><body>
+    <h2>Code Audit Report</h2>
+    <table><tr><th>File</th><th>Line</th><th>Severity</th><th>Vulnerability</th><th>CVE</th><th>Mitigation</th></tr><tr><td>vuln3.py</td><td>1</td><td>High</td><td>Hardcoded Password</td><td>CWE-259</td><td>{'mitigation': 'Remove hardcoded passwords; use environment variables or secure vaults.'}</td></tr><tr><td>vuln3.py</td><td>2</td><td>High</td><td>Use of eval()</td><td>CWE-95</td><td>N/A</td></tr><tr><td>vuln3.py</td><td>3</td><td>Medium</td><td>Insecure Deserialization (pickle)</td><td>CWE-502</td><td>{'mitigation': "Avoid using 'pickle' for deserialization of untrusted data; use safer formats like JSON."}</td></tr></table></body></html>
